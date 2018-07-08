@@ -121,7 +121,7 @@
 			// Insert cursor
 			if (this.showCursor === true) {
 				this.cursor = $("<span class=\"typed-cursor\">" + this.cursorChar + "</span>");
-				this.el.after(this.cursor);
+				this.el.before(this.cursor);
 			}
 			if (this.stringsElement) {
 				this.strings = [];
